@@ -16,13 +16,17 @@ PLA, 0.3 mm layer height, 3 layer wall thickness, top and bottom
 The case will fit a 1.8" TFT SPI screen (128x160, ST7735 driver chip).  
 These are readily available for a few pounds on eBay (around £2.50+postage)
 
-![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/st7725screen.png "1.8 inch ST7735 SPI screen")
+![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/st7735screen.png "1.8 inch ST7735 SPI screen")
 
 Here is the wiring diagram to connect the screen to the Raspberry Pi:
 
 ![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/ST7735_128x128_GPIO.png "Wiring Diagram")
 
 **Code for running screen**
+
+Using the latest Raspbian image (Raspbian or Rapberry Pi OS) enable SPI in the device settings;
+
+![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/EnableSPI.png "Enable SPI")
 
 A single python script and images folder will run a carousel of images on the screen.
 
@@ -35,3 +39,4 @@ sudo apt-get install ttf-dejavu
 sudo apt-get install python3-pil
 ~~~~
 
+The next thing to do is 
