@@ -30,7 +30,7 @@ import adafruit_rgb_display.st7735 as st7735  # pylint: disable=unused-import
 #import adafruit_rgb_display.ssd1351 as ssd1351  # pylint: disable=unused-import
 #import adafruit_rgb_display.ssd1331 as ssd1331  # pylint: disable=unused-import
 
-IMAGE_SOURCE=''
+IMAGE_SOURCE='images'
 FONT = "freefont/FreeSans.ttf"
 ttffont34 = ImageFont.truetype("/usr/share/fonts/truetype/"+FONT, 34)
 ttffont20 = ImageFont.truetype("/usr/share/fonts/truetype/"+FONT, 20)
@@ -143,4 +143,4 @@ def display_time_temp(showtime, info1, info2):
 while(True):
     display_time_temp(10,"Tim Skillman","Class 1")
     slide_file(5,"dartmoor.jpg")
-    slide_file(5,"cat.jpg")
+    slide_file(5,"rpi.png")
