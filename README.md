@@ -24,6 +24,10 @@ Here is the wiring diagram to connect the screen to the Raspberry Pi:
 
 **Code for running screen**
 
+Using the latest Raspbian image (Raspbian or Rapberry Pi OS) enable SPI in the device settings;
+
+![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/EnableSPI.png "Enable SPI")
+
 A single python script and images folder will run a carousel of images on the screen.
 
 The python script uses Adafruit's rgb display drivers that can be installed on your Raspberry Pi with the following commands in a terminal window:
@@ -35,3 +39,4 @@ sudo apt-get install ttf-dejavu
 sudo apt-get install python3-pil
 ~~~~
 
+The next thing to do is 
