@@ -16,7 +16,7 @@ PLA, 0.3 mm layer height, 3 layer wall thickness, top and bottom
 The case will fit a 1.8" TFT SPI screen (128x160, ST7735 driver chip).  
 These are readily available for a few pounds on eBay (around £2.50+postage)
 
-![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/st7725screen.png "1.8 inch ST7735 SPI screen")
+![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/st7735screen.png "1.8 inch ST7735 SPI screen")
 
 Here is the wiring diagram to connect the screen to the Raspberry Pi:
 
