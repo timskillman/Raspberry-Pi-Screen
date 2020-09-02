@@ -35,8 +35,26 @@ The python script uses Adafruit's rgb display drivers that can be installed on y
 ~~~~
 sudo pip3 install adafruit-circuitpython-rgb-display
 sudo apt-get install python3-pip
-sudo apt-get install ttf-dejavu
 sudo apt-get install python3-pil
 ~~~~
 
-The next thing to do is 
+The next thing to do is git clone this repo onto your Raspberry in the pi folder:
+
+~~~~
+git clone https://github.com/timskillman/Raspberry-Pi-Screen/
+~~~~
+
+Navigate to the folder:
+
+~~~~
+cd Raspberry-Pi-Screen
+~~~~
+
+And try the carousel.py program with example images on your connected screen:
+
+~~~~
+python carousel.py
+~~~~
+
+The display should run a carousel of images and information screen showing time, example text and CPU temperature
+
