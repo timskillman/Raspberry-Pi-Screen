@@ -1,3 +1,5 @@
+![alt text](https://github.com/timskillman/Raspberry-Pi-Screen/blob/master/images/Case-pic.png "3D printed case & screen")
+
 # Raspberry-Pi-Screen ReadMe
 
 This repo provides code to run a background carousel of images and info for the supplied 3D printed case
